@@ -1,0 +1,2292 @@
+
+header{
+    height: 10vh;
+    background-color: white;
+}
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+.q{
+    display: flex;
+    justify-content: space-between;
+}
+.q div+div{
+    display: flex;
+    align-items: center;
+}
+header button{
+    padding: 1px 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #864FF1 
+}
+header button:hover{
+    background-color: #243976;
+    box-shadow:0px 0px 25px #4271DF;
+    transition: all 0.5s;
+}
+header button p{
+    color: #FFFFFF;
+    font-family: 'Anek Latin', sans-serif;
+    font-style: Bold
+}
+#q{
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 20px;
+    color: #243976;
+    margin-right: 20px;
+}
+.w{
+    background-image: url(./img/4.svg);
+}
+.e{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.e a{
+    font-family: 'Anek Latin', sans-serif;
+    text-decoration: none;
+    color: #243976;
+    margin-right: 15px;
+    font-size: 16px;
+}
+.e div + div{
+    display: flex;
+    align-items: center;
+}
+.e div + div img{
+    margin-right: 7px;
+}
+.e div + div a{
+    margin-right: 8px;
+}
+.r button{
+    padding: 0px 10px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #864FF1 
+}
+.r button:hover{
+    background-color: #243976;
+    box-shadow: 0px 0px 25px #4271DF;
+    transition: all 0.5s;
+}
+.r button p{
+    font-family: 'Anek Latin', sans-serif;
+    color: white;
+}
+.r h1{
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 60px;
+    line-height: 20px;
+    color: #243976;
+}
+.t{
+    display: flex;
+    justify-content: space-between;
+    height: 50vh;
+}
+.t h1{
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 60px;
+    color: #49B3F7;
+    line-height: 0px;
+}
+.t p{
+    font-family: 'Anek Latin', sans-serif;
+    color: #243976;
+}
+.t b{
+    font-family: 'Anek Latin', sans-serif;
+    color: black;
+
+}
+.t button{
+    padding: 0px 8px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 20px;
+    background-color: #864FF1 
+    }
+.t button:hover{
+    background-color: #243976;
+    box-shadow: 0px 0px 25px #4271DF;
+    transition: all 0.5s;
+}
+.t button p{
+    font-family: 'Anek Latin', sans-serif;
+    color: white;
+}
+.y {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.y img{
+    margin-left: 15px;
+}
+.t div+div{
+    width: 60%;
+}
+.t div+div img{
+    height: 47vh;
+    width: 100%;
+}
+.i h1{
+    font-family: 'Anek Latin', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: #243976;
+}
+.o{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding-left: 50px;
+    margin-top: 40px;
+}
+.o p{
+    color: #243976;
+    font-family: 'Anek Latin', sans-serif;
+}
+.p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    height: 20vh;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #EFF2FD;
+}
+.p p{
+    font-family: 'Anek Latin', sans-serif;
+    color: #243976;
+}
+.p button{
+    padding: 0px 10px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 20px;
+    background-color: #864FF1 
+    }
+.p button:hover{
+    background-color: #243976;
+    box-shadow: 0px 0px 25px #4271DF;
+    transition: all 0.5s;
+}
+.p button p{
+    color: white;
+    font-family: 'Anek Latin', sans-serif;
+}
+.s h1{
+    font-family: 'Anek Latin', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: #243976;
+}
+.d, .g{
+    display: flex;
+    justify-content: space-between;
+}
+.f {
+    display: flex;
+    align-items: center;
+}
+.d, .f h6{
+    font-size: 15px;
+    line-height:normal;
+    margin-left: 30px;
+    font-family: 'Anek Latin', sans-serif;
+    color:#243976;
+}
+.d, .f p{
+    line-height:normal;
+    margin-left: 30px;
+    font-family: 'Anek Latin', sans-serif;
+    color:#243976;
+}
+
+.g, .f h6{
+    font-size: 15px;
+    line-height:normal;
+    margin-right: 30px;
+    font-family: 'Anek Latin', sans-serif;
+    color:#243976;
+}
+.g, .f p{
+    line-height:normal;
+    margin-right: 30px;  
+    font-family: 'Anek Latin', sans-serif;
+    color:#243976;
+}
+.h{
+    background-color: #EFF2FD;
+    height:87vh;
+}
+#w{
+    font-size: 60px;
+    padding-top: 50px;
+    font-family: 'Anek Latin', sans-serif;
+    color:#243976;
+}
+.j{
+    display: flex;
+}
+.l{
+    display: flex;
+    align-items: center;
+}
+#wer{
+    padding-left: 13px;
+    font-family: 'Anek Latin', sans-serif;
+    color:#243976;
+}
+.wer{
+    font-family: 'Anek Latin', sans-serif;
+    color:#243976;
+}
+.k{
+    width: 60%;
+}
+.x button{
+    padding: 0px 10px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 20px;
+    background-color: #864FF1 
+    }
+.x button:hover{
+    background-color: #243976;
+    box-shadow: 0px 0px 25px #4271DF;
+    transition: all 0.5s;
+}
+.x button p{
+    color: white;
+    font-family: 'Anek Latin', sans-serif;
+}
+.x div p{
+     color: 
+     #737373;
+     font-family: 'Anek Latin', sans-serif;
+}
+.v h1{
+    text-align: center;
+    font-size: 40px;
+    color: #243976;
+    font-family: 'Anek Latin', sans-serif;
+}
+.b{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.n{
+    background-color: #EFF2FD;
+    border-radius: 10px;
+    width: 240px;
+    height: 50vh;
+}
+.n p{
+    padding-left: 28px;
+    line-height: 2px;
+    color: #243976;
+    font-family: 'Anek Latin', sans-serif;
+}
+.n h4{
+    padding-left: 28px;
+    color: #243976;
+    font-family: 'Anek Latin', sans-serif;
+}
+.n li{
+    padding-left: 10px;
+    font-family: 'Anek Latin', sans-serif;
+}
+.qw h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Anek Latin', sans-serif;
+    color: #243976;
+    font-family: 'Anek Latin', sans-serif;
+}
+.we{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.we p, h5{
+    text-align: center;color: #243976;
+    font-family: 'Anek Latin', sans-serif;
+}
+.we img{
+    padding-left: 40px;
+}
+.er{
+    background-color: #EFF2FD;
+    height: 90vh;
+}
+.rt h1{
+     text-align: center;
+     font-size: 40px;
+     padding-top: 50px;
+     margin-bottom: 50px;
+     color: #243976;
+    font-family: 'Anek Latin', sans-serif;
+}
+.ui h3{
+    padding-left: 20px;
+    color: 
+    #243976;
+    font-family: 'Anek Latin', sans-serif;
+}
+.ui p{
+    color: #789CF1;
+    font-family: 'Anek Latin', sans-serif;
+    padding-left: 20px;
+}
+.ty{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ui{
+    border-radius: 25px;
+    background-color: white;
+    width: 230px;
+    height: 62vh;
+}
+.ui div{
+    display: flex;
+    padding-left: 15px;
+}
+.ui div p{
+    padding-left: 10px;
+    color: #243976;
+}
+.ui a{
+    padding: 7px 15px;
+    border-radius: 15px;
+    border: none;
+    background-color: #4271DF;
+    margin-left: 60px;
+    margin-bottom: 80px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Anek Latin', sans-serif;
+}
+.ui a:hover{
+    background-color: #243976;
+    box-shadow: 0px 0px 25px #4271DF;
+    transition: all 0.5s;
+}
+.op{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.io h2{
+    font-size: 40px;
+    font-family: 'Anek Latin', sans-serif;
+    color: #243976;
+}
+.io p{
+    font-family: 'Anek Latin', sans-serif;
+    color:#243976;
+    font-size: 25px;
+}
+.as{
+    height: 40vh;
+}
+.sd{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    background-color: rgb(177, 161, 161);
+    width: 600px;
+    height: 30vh;
+    margin-top: 90px;
+    margin-left: 300px;
+}
+.sd h4{
+    font-family: 'Anek Latin', sans-serif;
+    color: #243976;
+}
+.sd p{
+    font-family: 'Anek Latin', sans-serif;
+    color: #243976;
+}
+.sd a{
+    font-family: 'Anek Latin', sans-serif;
+}
+.io h1{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Anek Latin', sans-serif;
+    color: #243976;
+}
+.df{
+    margin-left: 500px;
+    margin-top: 20px;
+}
+.gh{
+    margin-top: 50px;
+}
+.gh div{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     background-color: #EFF2FD;
+     border-radius: 15px;
+     margin-top: 10px;
+}
+.gh div h1{
+    padding-left: 10px;
+    font-family: 'Anek Latin', sans-serif;
+    color: #243976;
+}
+.gh div img{
+    padding-right: 10px;
+}
+.jk{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lz {
+    justify-content: flex-end;
+}
+.kl div{
+    width: 350px;
+    height: 55vh;
+    margin-left: 100px;
+    background-color: #e1dada;
+    border-radius: 10px;
+}
+.kl div input{
+    padding: 10px 15px;
+    border-radius: 15px;
+    margin-left: 80px;
+    margin-top: 25px;
+}
+.uio button{
+    padding: 5px 15px;
+    border-radius: 20px;
+    background-color: #789CF1;
+    margin-top: 20px;
+    margin-left: 111px;
+    border: none;
+}
+.uio button:hover{
+    background-color: #243976;
+    box-shadow: 0px 0px 25px #4271DF;
+    transition: all 0.5s;
+}
+.uio button p{
+    font-family: 'Anek Latin', sans-serif;
+    color:white;
+}
+.uio p{
+    margin-left: 0px;
+    font-family: 'Anek Latin', sans-serif;
+    color: #243976;
+    text-align: center;
+}
+.lz h1 {
+    color: #243976;
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 40px;
+}
+.lz p{
+    font-family: 'Anek Latin', sans-serif;
+    color: #243976;
+}
+.zx{
+    background-color: #EFF2FD;
+}
+.zx p{
+    font-family: 'Anek Latin', sans-serif;
+    color: #243976;
+}
+.zx h4{
+    font-family: 'Anek Latin', sans-serif;
+    color: #243976;
+}
+.xc{
+    display: flex;
+    justify-content: space-between;
+    height: 35vh;
+    padding-top: 20px;
+}
+.cv p{
+    padding-top: 40px;
+}
+.bn div{
+    display: flex;
+}
+.qwe div{
+    display: flex;
+}
+.qwe div p{
+    margin-left: 10px;
+    font-family: 'Anek Latin', sans-serif;
+    color: #243976;;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) { 
+header{
+    height: 10vh;
+    background-color: white;
+}
+.container{
+    width: 95%;
+    margin: 0px auto;
+}
+.q{
+    display: flex;
+    justify-content: space-between;
+}
+.q div+div{
+    display: flex;
+    align-items: center;
+}
+header button{
+    padding: 1px 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #864FF1 
+}
+header button:hover{
+    background-color: #243976;
+    box-shadow: 0px 0px 25px #4271DF;
+    transition: all 0.5s;
+}
+header button p{
+    color: #FFFFFF;
+    font-family: 'Anek Latin', sans-serif;
+    font-style: Bold
+}
+#q{
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 20px;
+    color: #243976;
+    margin-right: 20px;
+}
+.w{
+    background-image: url(./img/4.svg);
+}
+.e{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.e a{
+    font-family: 'Anek Latin', sans-serif;
+    text-decoration: none;
+    color: #243976;
+    margin-right: 15px;
+    font-size: 16px;
+}
+.e div + div{
+    display: flex;
+    align-items: center;
+}
+.e div + div img{
+    margin-right: 7px;
+}
+.e div + div a{
+    margin-right: 8px;
+}
+.r button{
+    padding: 0px 10px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #864FF1 
+}
+.r button:hover{
+    background-color: #243976;
+    box-shadow: 0px 0px 25px #4271DF;
+    transition: all 0.5s;
+}
+.r button p{
+    font-family: 'Anek Latin', sans-serif;
+    color: white;
+}
+.r h1{
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 60px;
+    line-height: 20px;
+    color: #243976;
+}
+.t{
+    display: flex;
+    justify-content: space-between;
+    height: 60vh;
+}
+.t h1{
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 60px;
+    color: #49B3F7;
+    line-height: 0px;
+}
+.t p{
+    font-family: 'Anek Latin', sans-serif;
+    color: #243976;
+}
+.t b{
+    font-family: 'Anek Latin', sans-serif;
+    color: black;
+
+}
+.t button{
+    padding: 0px 8px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 20px;
+    background-color: #864FF1 
+    }
+.t button:hover{
+    background-color: #243976;
+    box-shadow: 0px 0px 25px #4271DF;
+    transition: all 0.5s;
+}
+.t button p{
+    font-family: 'Anek Latin', sans-serif;
+    color: white;
+}
+.y {
+    display: flex;
+}
+.y img{
+    margin-left: 15px;
+}
+.t div+div{
+    width: 60%;
+    height: 350px;
+}
+.t div+div img{
+    height: 47vh;
+    width: 100%;
+}
+.i h1{
+    font-family: 'Anek Latin', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: #243976;
+    padding-top: 20px;
+}
+.o{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding-left: 50px;
+    margin-top: 40px;
+}
+.o p{
+    color: #243976;
+    font-family: 'Anek Latin', sans-serif;
+}
+.p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    height: 30vh;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #EFF2FD;
+}
+.p h1{
+    font-size: 30px;
+}
+.p p{
+    font-family: 'Anek Latin', sans-serif;
+    color: #243976;
+}
+.p button{
+    padding: 0px 10px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 20px;
+    background-color: #864FF1 
+    }
+.p button:hover{
+    background-color: #243976;
+    box-shadow: 0px 0px 25px #4271DF;
+    transition: all 0.5s;
+}
+.p button p{
+    color: white;
+    font-family: 'Anek Latin', sans-serif;
+}
+.s h1{
+    font-family: 'Anek Latin', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: #243976;
+}
+.d, .g{
+    display: flex;
+    justify-content: space-between;
+}
+.f {
+    flex-direction: column;
+    align-items: center;
+}
+.d, .f h6{
+    font-size: 15px;
+    line-height:normal;
+    margin-left: 30px;
+    font-family: 'Anek Latin', sans-serif;
+    color:#243976;
+}
+.d, .f p{
+    line-height:normal;
+    margin-left: 30px;
+    font-family: 'Anek Latin', sans-serif;
+    color:#243976;
+}
+
+.g, .f h6{
+    font-size: 15px;
+    line-height:normal;
+    margin-right: 30px;
+    font-family: 'Anek Latin', sans-serif;
+    color:#243976;
+}
+.g, .f p{
+    line-height:normal;
+    margin-right: 30px;  
+    font-family: 'Anek Latin', sans-serif;
+    color:#243976;
+}
+.h{
+    background-color: #EFF2FD;
+    height:160vh;
+}
+#w{
+    font-size: 60px;
+    padding-top: 50px;
+    font-family: 'Anek Latin', sans-serif;
+    color:#243976;
+}
+.j{
+    flex-direction: column;
+}
+.l{
+    display: flex;
+    align-items: center;
+}
+#wer{
+    padding-left: 13px;
+    font-family: 'Anek Latin', sans-serif;
+    color:#243976;
+}
+.wer{
+    font-family: 'Anek Latin', sans-serif;
+    color:#243976;
+}
+.z img {
+    padding-left: 40px;
+}
+.k{
+    width: 60%;
+}
+.x button{
+    padding: 0px 10px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 20px;
+    background-color: #864FF1 
+    }
+.x button:hover{
+    background-color: #243976;
+    box-shadow: 0px 0px 25px #4271DF;
+    transition: all 0.5s;
+}
+.x button p{
+    color: white;
+    font-family: 'Anek Latin', sans-serif;
+}
+.x div p{
+     color: 
+     #737373;
+     font-family: 'Anek Latin', sans-serif;
+}
+.v h1{
+    text-align: center;
+    font-size: 40px;
+    color: #243976;
+    font-family: 'Anek Latin', sans-serif;
+}
+.b{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.n{
+    background-color: #EFF2FD;
+    border-radius: 10px;
+    width: 240px;
+    height: 50vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.n p{
+    padding-left: 28px;
+    line-height: 2px;
+    color: #243976;
+    font-family: 'Anek Latin', sans-serif;
+}
+.n h4{
+    padding-left: 28px;
+    color: #243976;
+    font-family: 'Anek Latin', sans-serif;
+}
+.n li{
+    padding-left: 10px;
+    font-family: 'Anek Latin', sans-serif;
+}
+.qw h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Anek Latin', sans-serif;
+    color: #243976;
+    font-family: 'Anek Latin', sans-serif;
+}
+.we{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.we p, h5{
+    text-align: center;color: #243976;
+    font-family: 'Anek Latin', sans-serif;
+}
+.we img{
+    padding-left: 40px;
+}
+.er{
+    background-color: #EFF2FD;
+    height: 90vh;
+}
+.rt h1{
+     text-align: center;
+     font-size: 40px;
+     padding-top: 50px;
+     margin-bottom: 50px;
+     color: #243976;
+    font-family: 'Anek Latin', sans-serif;
+}
+.ui h3{
+    padding-left: 20px;
+    color: 
+    #243976;
+    font-family: 'Anek Latin', sans-serif;
+}
+.ui p{
+    color: #789CF1;
+    font-family: 'Anek Latin', sans-serif;
+    padding-left: 20px;
+}
+.ty{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ui{
+    border-radius: 25px;
+    background-color: white;
+    width: 230px;
+    height: 62vh;
+}
+.ui div{
+    display: flex;
+    padding-left: 15px;
+}
+.ui div p{
+    padding-left: 10px;
+    color: #243976;
+}
+.ui a{
+    padding: 7px 15px;
+    border-radius: 15px;
+    border: none;
+    background-color: #4271DF;
+    margin-left: 60px;
+    margin-bottom: 80px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Anek Latin', sans-serif;
+}
+.ui a:hover{
+    background-color: #243976;
+    box-shadow: 0px 0px 25px #4271DF;
+    transition: all 0.5s;
+}
+.op{
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.io h2{
+    font-size: 40px;
+    font-family: 'Anek Latin', sans-serif;
+    color: #243976;
+}
+.io p{
+    font-family: 'Anek Latin', sans-serif;
+    color:#243976;
+    font-size: 25px;
+}
+.as{
+    height: 40vh;
+}
+.sd{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    background-color: rgb(177, 161, 161);
+    width: 600px;
+    height: 30vh;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+.sd h4{
+    font-family: 'Anek Latin', sans-serif;
+    color: #243976;
+}
+.sd p{
+    font-family: 'Anek Latin', sans-serif;
+    color: #243976;
+}
+.sd a{
+    font-family: 'Anek Latin', sans-serif;
+}
+.io h1{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Anek Latin', sans-serif;
+    color: #243976;
+}
+.df{
+    margin-left: 260px;
+    margin-top: 20px;
+}
+.gh{
+    margin-top: 50px;
+}
+.gh div{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     background-color: #EFF2FD;
+     border-radius: 15px;
+     margin-top: 10px;
+}
+.gh div h1{
+    padding-left: 10px;
+    font-family: 'Anek Latin', sans-serif;
+    color: #243976;
+}
+.gh div img{
+    padding-right: 10px;
+}
+.jk{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.lz {
+    justify-content: flex-end;
+}
+.kl div{
+    width: 350px;
+    height: 55vh;
+    background-color: #e1dada;
+    border-radius: 10px;
+}
+.kl div input{
+    padding: 10px 15px;
+    border-radius: 15px;
+    margin-left: 80px;
+    margin-top: 25px;
+}
+.uio button{
+    padding: 5px 15px;
+    border-radius: 20px;
+    background-color: #789CF1;
+    margin-top: 20px;
+    margin-left: 111px;
+    border: none;
+}
+.uio button:hover{
+    background-color: #243976;
+    box-shadow: 0px 0px 25px #4271DF;
+    transition: all 0.5s;
+}
+.uio button p{
+    font-family: 'Anek Latin', sans-serif;
+    color:white;
+}
+.uio p{
+    margin-left: 0px;
+    font-family: 'Anek Latin', sans-serif;
+    color: #243976;
+    text-align: center;
+}
+.lz h1 {
+    color: #243976;
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 40px;
+}
+.lz p{
+    font-family: 'Anek Latin', sans-serif;
+    color: #243976;
+}
+.zx{
+    background-color: #EFF2FD;
+}
+.zx p{
+    font-family: 'Anek Latin', sans-serif;
+    color: #243976;
+}
+.zx h4{
+    font-family: 'Anek Latin', sans-serif;
+    color: #243976;
+}
+.xc{
+    flex-direction: column;
+    justify-content: space-between;
+    height: fit-content;
+    padding-top: 20px;
+}
+.cv p{
+    padding-top: 40px;
+}
+.bn div{
+    display: flex;
+}
+.qwe div{
+    display: flex;
+}
+.qwe div p{
+    margin-left: 10px;
+    font-family: 'Anek Latin', sans-serif;
+    color: #243976;;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+    header{
+        height: 10vh;
+        background-color: white;
+    }
+    .container{
+        width: 95%;
+        margin: 0px auto;
+    }
+    .q{
+        display: flex;
+        justify-content: space-between;
+    }
+    .q div+div{
+        display: flex;
+        align-items: center;
+    }
+    header button{
+        padding: 1px 10px;
+        border-radius: 20px;
+        border: none;
+        background-color: #864FF1 
+    }
+    header button:hover{
+        background-color: #243976;
+        box-shadow: 0px 0px 25px #4271DF;
+        transition: all 0.5s;
+    }
+    header button p{
+        color: #FFFFFF;
+        font-family: 'Anek Latin', sans-serif;
+        font-style: Bold
+    }
+    #q{
+        font-family: 'Anek Latin', sans-serif;
+        font-size: 15px;
+        color: #243976;
+        margin-right: 20px;
+    }
+    .w{
+        background-image: url(./img/4.svg);
+        background-size: cover;
+        height: fit-content;
+    }
+    .e{
+        margin-top: 10px;
+        flex-direction: column;
+    }
+    .e div a{
+        font-family: 'Anek Latin', sans-serif;
+        text-decoration: none;
+        color: #243976;
+        margin-right: 15px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .e div + div{
+        display: flex;
+        align-items: center;
+    }
+    .e div + div img{
+        margin-right: 7px;
+    }
+    .r button{
+        padding: 0px 10px;
+        border-radius: 20px;
+        border: none;
+        margin-top: 20px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-color: #864FF1 
+    }
+    .r button:hover{
+        background-color: #243976;
+        box-shadow: 0px 0px 25px #4271DF;
+        transition: all 0.5s;
+    }
+    .r button p{
+        font-family: 'Anek Latin', sans-serif;
+        color: white;
+    }
+    .r h1{
+        font-family: 'Anek Latin', sans-serif;
+        font-size: 30px;
+        line-height: 20px;
+        color: #243976;
+    }
+    .t{
+        flex-direction: column;
+        justify-content: space-between;
+        height: 90vh;
+    }
+    .t h1{
+        font-family: 'Anek Latin', sans-serif;
+        font-size: 30px;
+        color: #49B3F7;
+        line-height: 0px;
+    }
+    .t p{
+        font-family: 'Anek Latin', sans-serif;
+        color: #243976;
+    }
+    .t b{
+        font-family: 'Anek Latin', sans-serif;
+        color: black;
+    
+    }
+    .t button{
+        padding: 0px 8px;
+        border-radius: 20px;
+        border: none;
+        margin-top: 20px;
+        background-color: #864FF1 
+        }
+    .t button:hover{
+        background-color: #243976;
+        box-shadow: 0px 0px 25px #4271DF;
+        transition: all 0.5s;
+    }
+    .t button p{
+        font-family: 'Anek Latin', sans-serif;
+        color: white;
+    }
+    .y {
+        display: flex;
+    }
+    .y img{
+        margin-left: 15px;
+    }
+    .t div+div{
+        width: 100%;
+        height: 90vh;
+    }
+    .t div+div img{
+        height: 47vh;
+        width: 100%;
+    }
+    .i h1{
+        font-family: 'Anek Latin', sans-serif;
+        text-align: center;
+        font-size: 40px;
+        color: #243976;
+        padding-top: 20px;
+    }
+    .o{
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        padding-left: 50px;
+        margin-top: 40px;
+    }
+    .o p{
+        color: #243976;
+        font-family: 'Anek Latin', sans-serif;
+    }
+    .p{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+        height: 80vh;
+        border-radius: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: #EFF2FD;
+        text-align: center;
+    }
+    .p h1{
+        font-size: 30px;
+    }
+    .p p{
+        font-family: 'Anek Latin', sans-serif;
+        color: #243976;
+    }
+    .p button{
+        padding: 0px 10px;
+        border-radius: 20px;
+        border: none;
+        margin-top: 20px;
+        background-color: #864FF1 
+        }
+    .p button:hover{
+        background-color: #243976;
+        box-shadow: 0px 0px 25px #4271DF;
+        transition: all 0.5s;
+    }
+    .p button p{
+        color: white;
+        font-family: 'Anek Latin', sans-serif;
+    }
+    .s h1{
+        font-family: 'Anek Latin', sans-serif;
+        text-align: center;
+        font-size: 40px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        color: #243976;
+    }
+    .d, .g{
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .f {
+        flex-direction: column;
+        align-items: center;
+    }
+    .d, .f h6{
+        font-size: 15px;
+        line-height:normal;
+        margin-left: 30px;
+        font-family: 'Anek Latin', sans-serif;
+        color:#243976;
+    }
+    .d, .f p{
+        line-height:normal;
+        margin-left: 30px;
+        font-family: 'Anek Latin', sans-serif;
+        color:#243976;
+    }
+    
+    .g, .f h6{
+        font-size: 15px;
+        line-height:normal;
+        margin-right: 30px;
+        font-family: 'Anek Latin', sans-serif;
+        color:#243976;
+    }
+    .g, .f p{
+        line-height:normal;
+        margin-right: 30px;  
+        font-family: 'Anek Latin', sans-serif;
+        color:#243976;
+    }
+    .h{
+        background-color: #EFF2FD;
+        height:140vh;
+    }
+    #w{
+        font-size: 28px;
+        padding-top: 50px;
+        font-family: 'Anek Latin', sans-serif;
+        color:#243976;
+    }
+    .j{
+        flex-direction: column;
+    }
+    .l{
+        display: flex;
+        align-items: center;
+    }
+    #wer{
+        padding-left: 13px;
+        font-family: 'Anek Latin', sans-serif;
+        color:#243976;
+    }
+    .wer{
+        font-family: 'Anek Latin', sans-serif;
+        color:#243976;
+    }
+    .z img {
+        width: 85%;
+        padding-right: 40px;
+    }
+    .k{
+        width: 98%;
+    }
+    .x button{
+        padding: 0px 10px;
+        border-radius: 20px;
+        border: none;
+        margin-top: 20px;
+        background-color: #864FF1 
+        }
+    .x button:hover{
+        background-color: #243976;
+        box-shadow: 0px 0px 25px #4271DF;
+        transition: all 0.5s;
+    }
+    .x button p{
+        color: white;
+        font-family: 'Anek Latin', sans-serif;
+    }
+    .x div p{
+         color: 
+         #737373;
+         font-family: 'Anek Latin', sans-serif;
+    }
+    .v h1{
+        text-align: center;
+        font-size: 40px;
+        color: #243976;
+        font-family: 'Anek Latin', sans-serif;
+    }
+    .b{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .n{
+        background-color: #EFF2FD;
+        border-radius: 10px;
+        width: 240px;
+        height: 50vh;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .n p{
+        padding-left: 28px;
+        line-height: 2px;
+        color: #243976;
+        font-family: 'Anek Latin', sans-serif;
+    }
+    .n h4{
+        padding-left: 28px;
+        color: #243976;
+        font-family: 'Anek Latin', sans-serif;
+    }
+    .n li{
+        padding-left: 10px;
+        font-family: 'Anek Latin', sans-serif;
+    }
+    .qw h1{
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Anek Latin', sans-serif;
+        color: #243976;
+        font-family: 'Anek Latin', sans-serif;
+    }
+    .we{
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 40px;
+        align-items: center;
+    }
+    .we p, h5{
+        text-align: center;color: #243976;
+        font-family: 'Anek Latin', sans-serif;
+    }
+    .we img{
+        padding-left: 40px;
+    }
+    .er{
+        background-color: #EFF2FD;
+        height: 220vh;
+    }
+    .rt h1{
+         text-align: center;
+         font-size: 30px;
+         padding-top: 50px;
+         margin-bottom: 50px;
+         color: #243976;
+        font-family: 'Anek Latin', sans-serif;
+    }
+    .ui h3{
+        padding-left: 20px;
+        color: 
+        #243976;
+        font-family: 'Anek Latin', sans-serif;
+    }
+    .ui p{
+        color: #789CF1;
+        font-family: 'Anek Latin', sans-serif;
+        padding-left: 20px;
+    }
+    .ty{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .ui{
+        border-radius: 25px;
+        background-color: white;
+        width: 230px;
+        height: 62vh;
+        margin-bottom: 20px;
+    }
+    .ui div{
+        display: flex;
+        padding-left: 15px;
+    }
+    .ui div p{
+        padding-left: 10px;
+        color: #243976;
+    }
+    .ui a{
+        padding: 7px 15px;
+        border-radius: 15px;
+        border: none;
+        background-color: #4271DF;
+        margin-left: 60px;
+        margin-bottom: 80px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Anek Latin', sans-serif;
+    }
+    .ui a:hover{
+        background-color: #243976;
+        box-shadow: 0px 0px 25px #4271DF;
+        transition: all 0.5s;
+    }
+    .op{
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+    .io h2{
+        font-size: 30px;
+        font-family: 'Anek Latin', sans-serif;
+        color: #243976;
+    }
+    .io p{
+        font-family: 'Anek Latin', sans-serif;
+        color:#243976;
+        font-size: 20px;
+    }
+    .as{
+        height: 70vh;
+    }
+    .sd{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 20px;
+        background-color: rgb(177, 161, 161);
+        width: 400px;
+        height: 60vh;
+        margin-top: 90px;
+        margin-left: 50px;
+    }
+    .sd h4{
+        font-family: 'Anek Latin', sans-serif;
+        color: #243976;
+    }
+    .sd p{
+        font-family: 'Anek Latin', sans-serif;
+        color: #243976;
+    }
+    .sd a{
+        font-family: 'Anek Latin', sans-serif;
+    }
+    .io h1{
+        font-size: 40px;
+        text-align: center;
+        font-family: 'Anek Latin', sans-serif;
+        color: #243976;
+    }
+    .df{
+        margin-left: 150px;
+        margin-top: 20px;
+    }
+    .gh{
+        margin-top: 50px;
+    }
+    .gh div{
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         background-color: #EFF2FD;
+         border-radius: 15px;
+         margin-top: 10px;
+    }
+    .gh div h1{
+        padding-left: 10px;
+        font-family: 'Anek Latin', sans-serif;
+        color: #243976;
+        font-size: 20px;
+    }
+    .gh div img{
+        padding-right: 10px;
+    }
+    .jk{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+    .lz {
+        justify-content: flex-end;
+    }
+    .kl div{
+        width: 350px;
+        height: 55vh;
+        background-color: #e1dada;
+        border-radius: 10px;
+    }
+    .kl div input{
+        padding: 10px 15px;
+        border-radius: 15px;
+        margin-left: 80px;
+        margin-top: 25px;
+    }
+    .uio{
+        margin-right: 90px;
+    }
+    .uio button{
+        padding: 5px 15px;
+        border-radius: 20px;
+        background-color: #789CF1;
+        margin-top: 20px;
+        margin-left: 111px;
+        border: none;
+    }
+    .uio button:hover{
+        background-color: #243976;
+        box-shadow: 0px 0px 25px #4271DF;
+        transition: all 0.5s;
+    }
+    .uio button p{
+        font-family: 'Anek Latin', sans-serif;
+        color:white;
+    }
+    .uio p{
+        margin-left: 0px;
+        font-family: 'Anek Latin', sans-serif;
+        color: #243976;
+        text-align: center;
+    }
+    .lz h1 {
+        color: #243976;
+        font-family: 'Anek Latin', sans-serif;
+        font-size: 30px;
+        text-align: center;
+    }
+    .lz p{
+        font-family: 'Anek Latin', sans-serif;
+        color: #243976;
+        text-align: center;
+    }
+    .lz img{
+        width: 100%;
+    }
+    .zx{
+        background-color: #EFF2FD;
+    }
+    .zx p{
+        font-family: 'Anek Latin', sans-serif;
+        color: #243976;
+    }
+    .zx h4{
+        font-family: 'Anek Latin', sans-serif;
+        color: #243976;
+    }
+    .xc{
+        flex-direction: column;
+        justify-content: space-between;
+        height: fit-content;
+        padding-top: 20px;
+    }
+    .cv p{
+        padding-top: 40px;
+    }
+    .bn div{
+        display: flex;
+    }
+    .qwe div{
+        display: flex;
+    }
+    .qwe div p{
+        margin-left: 10px;
+        font-family: 'Anek Latin', sans-serif;
+        color: #243976;;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 320px) {
+    header{
+        height: 20vh;
+        background-color: white;
+    }
+    .container{
+        width: 98%;
+        margin: 0px auto;
+    }
+    .q{
+        flex-direction: column;
+    }
+    .zxc a {
+        flex-direction: column;
+    }
+    .q div+div{
+        display: flex;
+        align-items: center;
+    }
+    header button{
+        padding: 1px 5px;
+        border-radius: 20px;
+        border: none;
+        background-color: #864FF1 
+    }
+    header button:hover{
+        background-color: #243976;
+        box-shadow: 0px 0px 25px #4271DF;
+        transition: all 0.5s;
+    }
+    header button p{
+        color: #FFFFFF;
+        font-family: 'Anek Latin', sans-serif;
+        font-style: Bold
+    }
+    #q{
+        font-family: 'Anek Latin', sans-serif;
+        font-size: 15px;
+        color: #243976;
+        margin-right: 20px;
+    }
+    .w{
+        background-image: url(./img/4.svg);
+        background-size: cover;
+        height: fit-content;
+        flex-direction: column;
+    }
+    .e{
+        flex-direction: column;
+    }
+    .e div a{
+        flex-direction: column;
+        font-family: 'Anek Latin', sans-serif;
+        text-decoration: none;
+        color: #243976;
+        margin-right: 15px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .e div + div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .r button{
+        padding: 0px 10px;
+        border-radius: 20px;
+        border: none;
+        margin-top: 20px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        background-color: #864FF1;
+    }
+    .r button:hover{
+        background-color: #243976;
+        box-shadow: 0px 0px 25px #4271DF;
+        transition: all 0.5s;
+    }
+    .r button p{
+        font-family: 'Anek Latin', sans-serif;
+        color: white;
+    }
+    .r div {
+        flex-direction: column; 
+        justify-content: space-around;
+    }
+    .r h1{
+        font-family: 'Anek Latin', sans-serif;
+        font-size: 25px;
+        line-height: 15px;
+        color: #243976;
+    }
+    .t{
+        flex-direction: column;
+        justify-content: space-between;
+        height: 90vh;
+    }
+    .t h1{
+        font-family: 'Anek Latin', sans-serif;
+        font-size: 30px;
+        color: #49B3F7;
+        line-height: 0px;
+    }
+    .t p{
+        font-family: 'Anek Latin', sans-serif;
+        color: #243976;
+    }
+    .t b{
+        font-family: 'Anek Latin', sans-serif;
+        color: black;
+    
+    }
+    .t button{
+        padding: 0px 8px;
+        border-radius: 20px;
+        border: none;
+        margin-top: 20px;
+        background-color: #864FF1 
+        }
+    .t button:hover{
+        background-color: #243976;
+        box-shadow: 0px 0px 25px #4271DF;
+        transition: all 0.5s;
+    }
+    .t button p{
+        font-family: 'Anek Latin', sans-serif;
+        color: white;
+    }
+    .y {
+        display: flex;
+    }
+    .y img{
+        margin-left: 15px;
+    }
+    .t div+div{
+        width: 100%;
+        height: 90vh;
+    }
+    .t div+div img{
+        height: 47vh;
+        width: 100%;
+    }
+    .i h1{
+        font-family: 'Anek Latin', sans-serif;
+        text-align: center;
+        font-size: 15px;
+        color: #243976;
+        padding-top: 20px;
+    }
+    .o{
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
+        padding-left: 0px;
+        margin-top: 40px;
+    }
+    .o p{
+        color: #243976;
+        font-family: 'Anek Latin', sans-serif;
+    }
+    .p{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+        height: 90vh;
+        border-radius: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: #EFF2FD;
+        text-align: center;
+    }
+    .p h1{
+        font-size: 30px;
+    }
+    .p p{
+        font-family: 'Anek Latin', sans-serif;
+        color: #243976;
+    }
+    .p button{
+        padding: 0px 10px;
+        border-radius: 20px;
+        border: none;
+        margin-top: 20px;
+        background-color: #864FF1 
+        }
+    .p button:hover{
+        background-color: #243976;
+        box-shadow: 0px 0px 25px #4271DF;
+        transition: all 0.5s;
+    }
+    .p button p{
+        color: white;
+        font-family: 'Anek Latin', sans-serif;
+    }
+    .s h1{
+        font-family: 'Anek Latin', sans-serif;
+        text-align: center;
+        font-size: 15px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        color: #243976;
+    }
+    .d, .g{
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .f {
+        flex-direction: column;
+        align-items: center;
+    }
+    .d, .f h6{
+        font-size: 15px;
+        line-height:normal;
+        margin-left: 30px;
+        font-family: 'Anek Latin', sans-serif;
+        color:#243976;
+    }
+    .d, .f p{
+        line-height:normal;
+        margin-left: 30px;
+        font-family: 'Anek Latin', sans-serif;
+        color:#243976;
+    }
+    
+    .g, .f h6{
+        font-size: 15px;
+        line-height:normal;
+        margin-right: 30px;
+        font-family: 'Anek Latin', sans-serif;
+        color:#243976;
+    }
+    .g, .f p{
+        line-height:normal;
+        margin-right: 30px;  
+        font-family: 'Anek Latin', sans-serif;
+        color:#243976;
+    }
+    .h{
+        background-color: #EFF2FD;
+        height:125vh;
+    }
+    #w{
+        font-size: 15px;
+        padding-top: 50px;
+        font-family: 'Anek Latin', sans-serif;
+        color:#243976;
+    }
+    .j{
+        flex-direction: column;
+    }
+    .l{
+        display: flex;
+        align-items: center;
+        
+    }
+    #wer{
+        padding-left: 13px;
+        font-family: 'Anek Latin', sans-serif;
+        color:#243976;
+    }
+    .wer{
+        font-family: 'Anek Latin', sans-serif;
+        color:#243976;
+    }
+    .z img {
+        width: 90%;
+        padding-left: 10px;
+    }
+    .k{
+        width: 98%;
+    }
+    .x button{
+        padding: 0px 10px;
+        border-radius: 20px;
+        border: none;
+        margin-top: 20px;
+        background-color: #864FF1 
+        }
+    .x button:hover{
+        background-color: #243976;
+        box-shadow: 0px 0px 25px #4271DF;
+        transition: all 0.5s;
+    }
+    .x button p{
+        color: white;
+        font-family: 'Anek Latin', sans-serif;
+    }
+    .x div p{
+         color: 
+         #737373;
+         font-family: 'Anek Latin', sans-serif;
+    }
+    .v h1{
+        text-align: center;
+        font-size: 40px;
+        color: #243976;
+        font-family: 'Anek Latin', sans-serif;
+    }
+    .b{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .b img{
+        width: 90%;
+        align-items: center;
+    }
+    .n{
+        background-color: #EFF2FD;
+        border-radius: 10px;
+        width: 240px;
+        height: 50vh;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .n p{
+        padding-left: 28px;
+        line-height: 2px;
+        color: #243976;
+        font-family: 'Anek Latin', sans-serif;
+    }
+    .n h4{
+        padding-left: 28px;
+        color: #243976;
+        font-family: 'Anek Latin', sans-serif;
+    }
+    .n li{
+        padding-left: 10px;
+        font-family: 'Anek Latin', sans-serif;
+    }
+    .qw h1{
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Anek Latin', sans-serif;
+        color: #243976;
+        font-family: 'Anek Latin', sans-serif;
+    }
+    .we{
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 40px;
+        align-items: center;
+    }
+    .we p, h5{
+        text-align: center;color: #243976;
+        font-family: 'Anek Latin', sans-serif;
+    }
+    .we img{
+        padding-left: 40px;
+    }
+    .er{
+        background-color: #EFF2FD;
+        height: 220vh;
+    }
+    .rt h1{
+         text-align: center;
+         font-size: 30px;
+         padding-top: 50px;
+         margin-bottom: 50px;
+         color: #243976;
+        font-family: 'Anek Latin', sans-serif;
+    }
+    .ui h3{
+        padding-left: 20px;
+        color: 
+        #243976;
+        font-family: 'Anek Latin', sans-serif;
+    }
+    .ui p{
+        color: #789CF1;
+        font-family: 'Anek Latin', sans-serif;
+        padding-left: 20px;
+    }
+    .ty{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .ui{
+        border-radius: 25px;
+        background-color: white;
+        width: 230px;
+        height: 62vh;
+        margin-bottom: 20px;
+    }
+    .ui div{
+        display: flex;
+        padding-left: 15px;
+    }
+    .ui div p{
+        padding-left: 10px;
+        color: #243976;
+    }
+    .ui a{
+        padding: 7px 15px;
+        border-radius: 15px;
+        border: none;
+        background-color: #4271DF;
+        margin-left: 60px;
+        margin-bottom: 80px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Anek Latin', sans-serif;
+    }
+    .ui a:hover{
+        background-color: #243976;
+        box-shadow: 0px 0px 25px #4271DF;
+        transition: all 0.5s;
+    }
+    .op{
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+    .op img{
+        width: 90%;
+    }
+    .io h2{
+        font-size: 30px;
+        font-family: 'Anek Latin', sans-serif;
+        color: #243976;
+    }
+    .io p{
+        font-family: 'Anek Latin', sans-serif;
+        color:#243976;
+        font-size: 20px;
+    }
+    .as{
+        height: 40vh;
+    }
+    .sd{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 20px;
+        background-color: rgb(177, 161, 161);
+        width: 200px;
+        height: 40vh;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .sd h4{
+        font-family: 'Anek Latin', sans-serif;
+        color: #243976;
+        font-size: 10px;
+    }
+    .sd p{
+        font-family: 'Anek Latin', sans-serif;
+        color: #243976;
+        font-size: 10px;
+        padding-left: 5px;
+    }
+    .sd a{
+        font-family: 'Anek Latin', sans-serif;
+    }
+    .io h1{
+        font-size: 40px;
+        text-align: center;
+        font-family: 'Anek Latin', sans-serif;
+        color: #243976;
+    }
+    .df{
+        margin-left: 90px;
+        margin-top: 10px;
+    }
+    .df img{
+        width: 20%;
+    }
+    .gh{
+        margin-top: 50px;
+    }
+    .gh div{
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         background-color: #EFF2FD;
+         border-radius: 15px;
+         margin-top: 10px;
+    }
+    .gh div h1{
+        padding-left: 10px;
+        font-family: 'Anek Latin', sans-serif;
+        color: #243976;
+        font-size: 10px;
+    }
+    .gh div img{
+        padding-right: 10px;
+        width: 7%;
+    }
+    .jk{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+    .lz {
+        justify-content: flex-end;
+    }
+    .kl div{
+        width: 230px;
+        height: 40vh;
+        background-color: #e1dada;
+        border-radius: 10px;
+    }
+    .kl div input{
+        padding: 5px 10px;
+        border-radius: 15px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .uio{
+        margin-right: 90px;
+    }
+    .uio button{
+        padding: 0px 10px;
+        border-radius: 20px;
+        background-color: #789CF1;
+        margin-top: 20px;
+        margin-left: 57px;
+        border: none;
+    }
+    .uio button:hover{
+        background-color: #243976;
+        box-shadow: 0px 0px 25px #4271DF;
+        transition: all 0.5s;
+    }
+    .uio button p{
+        font-family: 'Anek Latin', sans-serif;
+        color:white;
+    }
+    .uio p{
+        margin-left: 0px;
+        font-family: 'Anek Latin', sans-serif;
+        color: #243976;
+        text-align: center;
+    }
+    .lz h1 {
+        color: #243976;
+        font-family: 'Anek Latin', sans-serif;
+        font-size: 30px;
+        text-align: center;
+    }
+    .lz p{
+        font-family: 'Anek Latin', sans-serif;
+        color: #243976;
+        text-align: center;
+    }
+    .lz img{
+        width: 100%;
+    }
+    .zx{
+        background-color: #EFF2FD;
+    }
+    .zx p{
+        font-family: 'Anek Latin', sans-serif;
+        color: #243976;
+    }
+    .zx h4{
+        font-family: 'Anek Latin', sans-serif;
+        color: #243976;
+    }
+    .xc{
+        flex-direction: column;
+        justify-content: space-between;
+        height: fit-content;
+        padding-top: 20px;
+    }
+    .cv p{
+        padding-top: 40px;
+    }
+    .bn div{
+        display: flex;
+    }
+    .qwe div{
+        display: flex;
+    }
+    .qwe div p{
+        margin-left: 10px;
+        font-family: 'Anek Latin', sans-serif;
+        color: #243976;;
+    }
+}
+
+
+
+
+
+
+
+
